@@ -1,0 +1,28 @@
+vi /etc/ansible/hosts
+vi /etc/ansible/ansible.cfg   #sudo = root uncomment
+
+useradd ansible
+passwd ansible 
+
+retype new password : ansible
+
+visudo      #root user has give  permission 
+
+
+root    ALL=(ALL)       ALL
+ansible ALL=(ALL)       NOPASSWD:ALL
+
+
+vim /etc/ssh/sshd_config
+
+## password authentication :yes 
+:wq
+
+
+sudo systemctl  restart sshd
+sudo systemctl status sshd
+
+
+ansible all --list-hosts
+
+

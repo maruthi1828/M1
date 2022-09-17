@@ -1,0 +1,78 @@
+XML stands for eXtensible Markup Language.
+
+XML was designed to store and transport data.
+
+XML was designed to be both human- and machine-readable.
+
+
+java installation (standard)
+
+..>   yum install java-1.8.0-openjdk -y
+
+
+https://downloads.apache.org/httpd/
+
+https://archive.apache.org/dist/maven/maven-3/
+
+https://archive.apache.org/dist/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+
+ wget https://archive.apache.org/dist/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+  tar  -zxvf apache-maven-3.8.6-bin.tar.gz
+     ll
+
+     cd apache-maven-3.8.6
+     yum install maven -y
+     mvn --version
+     java --version
+     mvn archetype:generate
+     by default number have to type : 1942
+                                     :8
+     group ID : devops (any ID)
+     artifactID: CGS (any name)
+     version:   NO need 
+     package :AWS (any name)
+     yes :y
+     Note : Build Sucess
+     ll
+     cd cgs/
+     ll
+     mvn compile
+     build sucess
+     ls target/
+     ls classes/   error
+     ls target/classes/
+     ls target/classes/aws/
+
+
+ cgs ls src/
+     ls src/main/
+     ls src/main/java
+     ls src/main/java/app.java
+     ls src/
+     ls src/test/
+     ls src/test/java/
+     ls src/test/java/aws/
+
+     mvn test
+     build sucess
+     mvn package
+     cd target/
+     ll
+     cat cgs .....tar
+     mvn install
+     ll 
+     mvn clean   (project deleted ) 
+ 
+
+
+     
+
+    
+     
+   
+
+     
+    
+
+
+    

@@ -1,0 +1,22 @@
+##java program execute in linux 
+
+ javac filename.java
+
+ ## to run 
+
+java filename
+
+
+## poll Scm =====> pull based mechanism
+
+job will trigger specific time if code changes or made
+
+## build trigger ===> on specific time (Build periodically)
+
+
+## webhooks  =====> push based mechanism   (GitHub hook trigger for GITScm polling)
+
+
+git clone https://.....
+
+

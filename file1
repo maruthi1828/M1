@@ -1,0 +1,66 @@
+## Ansible 
+  configuration management tool
+ configuration : RAM ,storages , OS ,Software and ip address of devices
+
+ management :update , add and delete.
+
+YAML language 
+
+
+sudo -i 
+sudo amazon-linux-extras install ansible2
+
+yum install git python python-pip python-level openssl -y
+
+
+vi /etc/ansible/hosts
+vi /etc/ansible/ansible.cfg  
+( some basic default values )
+
+useradd ansible
+passwd ansible
+password :ansible 
+
+visudo ( sudoers file root user )
+ansible ALL= ALL      NoPasswd:All
+ vim /etc/ssh/sshd_config
+( password authentication :yes )
+ 
+sudo systemctl restart sshd
+sudo systemctl status sshd (deamon server sshd )
+
+su - ansible ( login to ansible )
+
+
+vim /etc/ansible/hosts
+
+ansible all --list-hosts   
+ 
+ansible dev --list-hosts
+
+ansible name --list-hosts
+
+ansible dec[0] --list-hosts
+
+ansible all[-1] --list-hosts  (devops last ipaddress)
+
+ansible all[1:4] --list-hosts
+
+ansible all[2:] --list-hosts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

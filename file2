@@ -1,0 +1,26 @@
+   1  yum install java-1.8.0-openjdk -y
+    2  wget https://archive.apache.org/dist/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+    3  tar  -zxvf apache-maven-3.8.6-bin.tar.gz
+    4  ll
+    5  cd apache-maven-3.8.6/
+    6  yum install maven -y
+    7  mvn --version
+    8  java --version
+    9  mvn archetype:generate
+   10  ll
+   11  cd sa
+   12  ll
+   13  mvn compile
+   14  ll
+   15  ls target/
+   16  ls classes
+   17  ls target/classes
+   18  ls target/classes/mays
+   19  ls src
+   20  ls main
+   21  ls /src/main
+   22  ls /src/main/
+   23  ll
+   24  ls src/main
+   25  src/main/java
+   26  ls src/main/java
