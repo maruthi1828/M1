@@ -1,0 +1,84 @@
+  1  sudo apt update -y
+    2  pwd
+    3  ll
+    4  cd home
+    5  cd ..
+    6  ls
+    7  ll
+    8  cd ubuntu
+    9  ll
+   10  sudo su -
+   11  cd /var
+   12  ll
+   13  cd lib/
+   14  ll
+   15  cd
+   16  cd /opt
+   17  ls
+   18  ll
+   19  cd
+   20  cd /mnt
+   21  ll
+   22  cd
+   23  cd var
+   24  cd /var
+   25  ll
+   26  cd /home
+   27  ll
+   28  cd mail/
+   29  cd var/
+   30  cd
+   31  cd /var
+   32  ll
+   33  cd mail
+   34  ll
+   35  cd
+   36  mkdir maruthi
+   37  cd maruthi
+   38  touch file{1..29}
+   39  ls
+   40  cat > file1
+   41  cat file1
+   42  cat > file2
+   43  cat > file3
+   44  cat >file4
+   45  cat >file5
+   46  cat file4
+   47  cat >file6
+   48  cat >file7
+   49  cat >file8
+   50  cat >file9
+   51  ll
+   52  cd
+   53  ll
+   54  tar -czvf maruthibackup2022-09-17 maruthi
+   55  ll
+   56  exit
+   57  sudo apt update -y
+   58  ll
+   59  cat maruthibackup2022-09-17
+   60  PuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTYPuTTY
+   61  tar -czvf maruthibackup2022-09-17 maruthi
+   62  ll
+   63  git --version
+   64  git status
+   65  cd maruthi
+   66  git status
+   67  git init
+   68  ll
+   69  ls -ltra
+   70  git status
+   71  git add.
+   72  git add .
+   73  git status
+   74  git commit -m "AWS files "
+   75  git config --global user.name "maruthi1828"
+   76  git config --global user.email "maruthi1828@gmail.com"
+   77  git push origin master
+   78  git log
+   79  git push origin master
+   80  git remote -v
+   81  git remote add origin https://github.com/maruthi1828/M1.git
+   82  git remote -v
+   83  git push origin master
+   84  history
