@@ -1,0 +1,22 @@
+
+
+git log 
+
+git log --oneline
+
+
+git branch    ## create , add  and commit
+
+git branch -l
+
+git branch -a
+
+git branch -la
+
+git branch --list
+
+
+git checkout "branchname"     # it will switch to another branch
+
+
+
